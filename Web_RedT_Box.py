@@ -58,9 +58,9 @@ def option2():
         except requests.exceptions.ConnectionError:
             pass
 
-    target_url = input("Enter Target URL: ")
+    target_url = input("Enter Target IP address/Domain Name: ")
 
-    file = open("Project_RedTeam/common.txt","r")
+    file = open("Project_RedTeam/common.txt","r") #Might be changed
     for line in file:
         word = line.strip()
         full_url = target_url + "/" + word
