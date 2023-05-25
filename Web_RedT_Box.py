@@ -60,7 +60,7 @@ def option2():
 
     target_url = input("Enter Target URL: ")
 
-    file = open("common.txt","r")
+    file = open("Project_RedTeam/common.txt","r")
     for line in file:
         word = line.strip()
         full_url = target_url + "/" + word
