@@ -90,4 +90,4 @@ if __name__=='__main__':
             print('Good Bye')
             exit()
         else:
-            print('Invalid option. Please enter a number between 1 and 4.')
+            print('Invalid option. Please enter a number between 0 and 3.')
